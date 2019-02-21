@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: 'Toast',
+  name: 'CToast',
   props: {
     visible: {
       type: Boolean,

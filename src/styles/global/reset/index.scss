@@ -1,5 +1,12 @@
 @import "../../utils/index";
+@import "~minireset.css/minireset";
+
+html,
+body {
+  overflow: hidden;
+}
 
 body {
-  min-width: $min-width;
+  background-color: map-get($colors, c1);
+  user-select: none;
 }

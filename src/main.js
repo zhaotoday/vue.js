@@ -3,6 +3,7 @@ import App from './app.vue'
 import router from './router'
 import store from './store'
 
+import 'amfe-flexible'
 import globalPlugin from '@/plugins/global'
 import '@/utils/init'
 import '@/utils/styles'
