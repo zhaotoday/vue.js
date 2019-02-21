@@ -1,0 +1,69 @@
+@import '~iview/src/styles/index.less';
+
+@body-background: #f1f2f6;
+
+.ivu-menu-vertical {
+  .ivu-menu-submenu {
+    .ivu-menu-item {
+      font-size: 12px;
+    }
+  }
+}
+
+.ivu-menu-light {
+  height: 2000px;
+
+  &:after {
+    border-right: 1px solid #f1f2f6;
+  }
+}
+
+.margin-bottom {
+  margin-bottom: 15px;
+
+  &-sm {
+    margin-bottom: 5px;
+  }
+}
+
+.margin-right {
+  margin-right: 15px;
+
+  &-sm {
+    margin-right: 5px;
+  }
+}
+
+.ivu-breadcrumb {
+  display: none;
+  margin-bottom: 25px;
+  font-size: 12px;
+}
+
+.ivu-spin-fix {
+  background-color: rgba(0, 0, 0, .08);
+}
+
+.demo-spin-icon-load {
+  animation: ani-demo-spin 1s linear infinite;
+}
+
+.ivu-menu-dark {
+  background-color: #001529;
+}
+
+.ivu-menu-dark.ivu-menu-vertical .ivu-menu-opened .ivu-menu-submenu-title {
+  background: #001529;
+}
+
+.ivu-menu-dark.ivu-menu-vertical .ivu-menu-opened {
+  background: #000c17;
+}
+
+.ivu-menu-submenu-title:hover {
+  background: #001529 !important;
+}
+
+.ivu-menu-vertical .ivu-menu-submenu .ivu-menu-item {
+  padding-left: 52px !important;
+}
