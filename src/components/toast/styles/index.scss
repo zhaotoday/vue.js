@@ -1,14 +1,14 @@
 @import "../../../styles/utils/index";
 
 @include c(toast) {
-  @include position--absolute(50%, null, null, 50%);
+  @include position--absolute(41%, null, null, 50%);
 
-  transform: translate(-50%, -100%);
-  width: 60%;
-  padding: px2rem(20px);
+  transform: translate(-50%, -50%);
+  width: 55%;
+  padding: px2rem(30px);
   line-height: 120%;
-  background-color: rgba(map-get($colors, c4), .6);
+  background-color: rgba(map-get($colors, c2), .6);
   border-radius: px2rem(4px);
   text-align: center;
-  z-index: 4;
+  z-index: map-get($z-indexes, c-toast);
 }
