@@ -3,7 +3,6 @@ import Router from 'vue-router'
 import auth from '@/utils/auth'
 import TheLayout from '@/components/layout'
 import Root from '@/views/root'
-import iView from 'iview'
 
 Vue.use(Router)
 
@@ -17,11 +16,7 @@ const router = new Router({
           path: '/',
           component: TheLayout,
           children: [
-            require('./routes/home').default,
-            require('./routes/articles').default,
-            require('./routes/wx-users').default,
-            require('./routes/rbac').default,
-            require('./routes/settings').default
+            require('./routes/home').default
           ],
           meta: {
             requiresAuth: true
@@ -36,7 +31,7 @@ const router = new Router({
 })
 
 router.beforeEach((to, from, next) => {
-  iView.LoadingBar.start()
+  // iView.LoadingBar.start()
 
   if (to.matched.some(record => record.meta.requiresAuth)) {
     if (!auth.loggedIn()) {
@@ -53,7 +48,7 @@ router.beforeEach((to, from, next) => {
 })
 
 router.afterEach((to, from, next) => {
-  iView.LoadingBar.finish()
+  // iView.LoadingBar.finish()
 })
 
 export default router

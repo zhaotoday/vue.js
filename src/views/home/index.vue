@@ -1,5 +1,5 @@
 <template>
-  <div>欢迎使用后台管理系统！</div>
+  <div>home</div>
 </template>
 
 <script>
