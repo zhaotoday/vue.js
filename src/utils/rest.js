@@ -1,5 +1,6 @@
 import REST from 'jt-rest'
 import restHelpers from './helpers/rest-helpers'
+import toast from '@/components/toast'
 
 export default class extends REST {
   /**
@@ -33,10 +34,10 @@ export default class extends REST {
           // iView.Spin.hide()
 
           if (res.response.data.error.code === 'AUTHORIZATION/UNAUTHORIZED') {
-            // iView.Message.error('登入过期，请重新登入')
+            toast('登入过期，请重新登入')
             window.location.href = 'index.html#/logout'
           } else {
-            // iView.Message.error(res.response.data.error.message)
+            toast(res.response.data.error.message)
           }
         })
     })
