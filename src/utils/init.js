@@ -1,1 +1,2 @@
 import './polyfills'
+import './fastclick'

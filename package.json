@@ -10,6 +10,7 @@
   "dependencies": {
     "amfe-flexible": "^2.2.1",
     "core-js": "^2.6.5",
+    "fastclick": "^1.0.6",
     "jt-env": "0.0.2",
     "jt-helpers": "0.0.6",
     "jt-rest": "0.0.8",
