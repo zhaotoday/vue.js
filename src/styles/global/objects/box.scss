@@ -1,0 +1,12 @@
+@import "../../utils/index";
+
+@include o(box) {
+  @include position--absolute(0, 0, 0, 0);
+
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  @include s(has-nav-bar) {
+    top: px2rem(90px);
+  }
+}

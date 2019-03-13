@@ -10,3 +10,7 @@ body {
   background-color: map-get($colors, c1);
   user-select: none;
 }
+
+*:focus {
+  outline: none;
+}
