@@ -1,0 +1,34 @@
+@import "../../../styles/utils/index";
+
+@include c(alert) {
+  @include position--absolute(50%, null, null, 50%);
+
+  transform: translate(-50%, -50%);
+  z-index: map-get($z-indexes, c-alert);
+  width: px2rem(560px);
+  background-color: map-get($colors, c1);
+  border-radius: px2rem(8px);
+
+  @include e(title) {
+    @include padding(px2rem(46px), null, px2rem(25px));
+
+    line-height: 100%;
+  }
+
+  @include e(body) {
+    padding-bottom: px2rem(64px);
+    line-height: 100%;
+  }
+
+  @include e(foot) {
+    border-top: 1px solid map-get($colors, c16);
+
+    li {
+      @include text--middle(px2rem(100px));
+
+      &:first-child {
+        border-right: 1px solid map-get($colors, c16);
+      }
+    }
+  }
+}
