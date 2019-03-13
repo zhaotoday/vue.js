@@ -10,7 +10,8 @@
       class="c-alert">
       <div
         v-if="title"
-        class="c-alert__title u-tac fs40">{{ title }}
+        class="c-alert__title u-tac fs40">
+        {{ title }}
       </div>
       <div class="c-alert__body u-tac fs32">
         <slot />
