@@ -1,0 +1,13 @@
+@import "../../utils/index";
+
+.u-fwb {
+  font-weight: bold;
+}
+
+.u-tac {
+  text-align: center;
+}
+
+.u-cf {
+  @include clearfix;
+}
