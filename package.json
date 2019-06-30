@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "amfe-flexible": "^2.2.1",
-    "better-scroll": "^1.15.0",
-    "core-js": "^2.6.5",
+    "better-scroll": "^1.15.2",
+    "core-js": "^2.6.9",
     "fastclick": "^1.0.6",
     "jt-env": "0.0.2",
     "jt-helpers": "0.0.6",
@@ -18,22 +18,22 @@
     "jt-storage": "0.0.2",
     "jt-time": "0.0.7",
     "minireset.css": "0.0.4",
-    "sass-utils": "^1.0.20",
-    "vue": "^2.6.6",
-    "vue-router": "^3.0.2",
-    "vuex": "^3.1.0"
+    "sass-utils": "^1.0.21",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.6",
+    "vuex": "^3.1.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.4.0",
-    "@vue/cli-plugin-eslint": "^3.4.0",
-    "@vue/cli-service": "^3.4.0",
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-service": "^3.8.4",
     "@vue/eslint-config-standard": "^4.0.0",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.14.0",
-    "eslint-plugin-vue": "^5.2.1",
-    "node-sass": "^4.11.0",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.6.6"
+    "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
     "root": true,
