@@ -14,7 +14,7 @@
         {{ title }}
       </div>
       <div class="c-alert__body u-tac fs32">
-        <slot />
+        <slot></slot>
       </div>
       <ul class="c-alert__foot o-grid u-tac fs36">
         <li
